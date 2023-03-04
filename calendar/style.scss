@@ -1,0 +1,54 @@
+.calender {
+    width: 100%;
+
+    .title {
+        text-align: center;
+    }
+
+    .calender-month {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            cursor: pointer;
+            font-size: 25px;
+            background-color: unset;
+            border: unset;
+        }
+    }
+
+    .calender-table {
+        width: 100%;
+        text-align: center;
+
+        thead {
+            background-color: rgb(26, 115, 232);
+        }
+
+        tbody {
+            background-color: #fff;
+        }
+
+        .days-container {
+            color: #fff;
+        }
+
+        .date-container {
+            color: #000;
+            font-weight: 600;
+
+            .date {
+                cursor: pointer;
+            }
+
+            .selected {
+                background-color: #F6E1C3
+            }
+
+            .today {
+                background-color: rgb(210, 227, 252);
+            }
+        }
+    }
+}
